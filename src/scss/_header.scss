@@ -1,0 +1,9 @@
+/* ===== Header ====== */
+header{
+  background-color: $colordos; 
+  height: 300px;
+  &title{
+  	color: $colortres;
+  }
+}
+
