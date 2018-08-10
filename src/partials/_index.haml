@@ -1,0 +1,170 @@
+%header#header
+  %nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-blue-nav
+    %a.navbar-brand{:href => "#"} Logotipo
+    %button.navbar-toggler{"aria-controls" => "navbarCollapse", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarCollapse", "data-toggle" => "collapse", :type => "button"}
+      %span.navbar-toggler-icon
+    #navbarCollapse.collapse.navbar-collapse.justify-content-end
+      %ul.navbar-nav.ml-auto
+        -#%li.nav-item.active
+          %a.nav-link{:href => "#"}
+            Home
+            %span.sr-only (current)
+        %li.nav-item
+          %a.nav-link{:href => "#"} Quienes Somos
+        %li.nav-item
+          %a.nav-link{:href => "#"} Traslados
+        %li.nav-item
+          %a.nav-link{:href => "#"} Circuitos
+        %li.nav-item
+          %a.nav-link{:href => "#"} Tours
+        %li.nav-item
+          %a.nav-link{:href => "#"} Multidestinos         
+        %li.nav-item
+          %a.nav-link{:href => "#"} Contacto 
+
+
+#home
+  .jumbotron.jumbotron-fluid.jb-bg-home
+    .container
+      -#%h1.display-4 Fluid jumbotron
+      -#%p.lead This is a modified jumbotron that occupies the entire horizontal space of its parent. 
+
+#services
+  .container
+    %h3.title-services Conoce lo que tenemos para ti
+    .category-servies
+      %ul
+        %li 
+          %a{:href => ""} Traslados
+        %li 
+          %a{:href => ""} Circuitos
+        %li 
+          %a{:href => ""} Tours
+        %li 
+          %a{:href => ""} Multidestinos
+  .container
+    .row
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago   
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago
+
+#tours
+  .jumbotron.jumbotron-fluid.jb-bg-tours
+    .container
+      .box-tours
+        .info-tours
+          %h3.display-4.text-center Expertos en traslados ejecutivos
+          %h3.display-4.text-center Y turismo receptivo
+
+#top-tours
+  .container
+    .row
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago   
+      .col-lg-4
+        .card
+          %img.card-img-top{:alt => "Card image cap", :src => "/assets/img/bg-1.jpg"}/
+          .card-body
+            %h5.card-title Card title
+            %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .card-footer
+            %small.text-muted Last updated 3 mins ago
+
+
+#tips-services
+  .container
+    %h4.text-center ¿Por qué escogernos?
+  .box-tips
+    .container
+      .row.justify-content-center
+        .col-lg-3.tips
+          %img.rounded-circle{:alt => "Generic placeholder image", :height => "140", :src => "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==", :width => "140"}/
+          %h2 Heading
+          %p Donec sed odio dui. Etiam porta
+          %p Donec sed odio dui. Etiam porta 
+        .col-lg-3.tips
+          %img.rounded-circle{:alt => "Generic placeholder image", :height => "140", :src => "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==", :width => "140"}/
+          %h2 Heading
+          %p Donec sed odio dui. Etiam porta 
+          %p Donec sed odio dui. Etiam porta  
+        .col-lg-3.tips
+          %img.rounded-circle{:alt => "Generic placeholder image", :height => "140", :src => "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==", :width => "140"}/
+          %h2 Heading
+          %p Donec sed odio dui. Etiam porta 
+          %p Donec sed odio dui. Etiam porta  
+        .col-lg-3.tips
+          %img.rounded-circle{:alt => "Generic placeholder image", :height => "140", :src => "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==", :width => "140"}/
+          %h2 Heading
+          %p Donec sed odio dui. Etiam porta 
+          %p Donec sed odio dui. Etiam porta 
+            
+            
+%footer#footer
+  .box-footer
+    .container
+      .row
+        .col-lg-4
+
+        .col-lg-4
+
+        .col-lg-4
+

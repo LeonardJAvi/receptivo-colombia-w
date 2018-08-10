@@ -1,9 +1,6 @@
 /* ===== Header ====== */
-header{
-  background-color: $colordos; 
-  height: 300px;
-  &title{
-  	color: $colortres;
+#header{
+  .bg-blue-nav{
+    background-color:#000000 !important; 
   }
 }
-

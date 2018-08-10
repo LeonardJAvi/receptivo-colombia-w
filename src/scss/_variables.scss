@@ -8,18 +8,7 @@ $breakpoints: (
 ) !default;
 
 
-
-$fontSize: 10px;
-
-
-//Keppler for Bootstrap v3.3.7
-// $breakpoints: (
-//   'xs': "(min-width: 0px) and (max-width: 767px)",
-//   'sm': "(min-width: 768px) and (max-width: 991px)",
-//   'md': "(min-width: 992px) and (max-width: 1199px)",
-//   'lg': "(min-width: 1200px) and (max-width: 1600px)",
-//   'xl': "(min-width: 1601px) and (max-width: 2048px)",
-// ) !default;
+$font-primary: 'Poppins', sans-serif;
 
 
 
@@ -37,3 +26,10 @@ $arrow-size: 25px;
 $dots-color: #ffffff;
 $dots-color-active: #f50000;
 $dots-size: 10px;
+
+
+$color-yellow: #FFC700;
+
+$color:#807964;
+
+$color-black:#4C4E56;
